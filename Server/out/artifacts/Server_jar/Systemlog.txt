@@ -1,0 +1,62 @@
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Tue Jan 11 17:28:24 EET 2022currentUser: MAIL FROM:<johndoe@client-domain.gr>
+Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:28:27 EET 2022currentUser: DATA
+Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:28:28 EET 2022currentUser: RSET
+Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:28:38 EET 2022currentUser:  HELP 
+Tue Jan 11 17:28:53 EET 2022currentUser:  HELO 
+Tue Jan 11 17:29:25 EET 2022currentUser:  NOOP 
+Tue Jan 11 17:30:10 EET 2022currentUser:  READ MAIL 
+Tue Jan 11 17:30:22 EET 2022currentUser:  READ MAIL 
+Tue Jan 11 17:30:35 EET 2022currentUser:  DELETE MAIL 
+Tue Jan 11 17:31:08 EET 2022currentUser:  MAIL FROM johndoe@client-domain.gr
+Tue Jan 11 17:31:15 EET 2022currentUser:  HELO - Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:31:18 EET 2022currentUser:  DELETE MAIL - Error 503 -> Bad sequence of commands 
+	 Subject: 5
+		RCPT TO:<>
+
+		DATA
+
+		HELO client-domain.gr
+
+		QUIT
+
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Tue Jan 11 17:32:16 EET 2022currentUser: MAIL FROM:<johndoe@client-domain.gr>
+Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:32:20 EET 2022currentUser:  HELO - Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:32:22 EET 2022currentUser:  HELO - Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:32:24 EET 2022currentUser:  MAIL FROM - Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:32:28 EET 2022currentUser:  QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Tue Jan 11 17:32:41 EET 2022currentUser:  HELO - Error 503 -> Bad sequence of commands 
+Tue Jan 11 17:32:46 EET 2022currentUser:  QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Tue Jan 11 17:33:28 EET 2022currentUser:  HELO 
+Tue Jan 11 17:33:31 EET 2022currentUser:  MAIL FROM johndoe@client-domain.gr
+Tue Jan 11 17:33:52 EET 2022currentUser:  RCPT TOffsdfds@sdfdsf - Error 550 -> Requested action not taken: recipient not in server's list 
+Tue Jan 11 17:34:18 EET 2022currentUser:  RCPT TO bobsalvatore@client-domain.gr
+Tue Jan 11 17:34:21 EET 2022currentUser:  DATA: 
+	 Subject: My subject!
+		Hi!
+		I am coming home tonight.
+		See you!
+Tue Jan 11 17:35:22 EET 2022currentUser:  VRFYVRFY <sdasd>
+ - Error 550 -> User not in server's list 
+Tue Jan 11 17:35:28 EET 2022currentUser:  VRFYVRFY <bob>
+ 
+Tue Jan 11 17:35:41 EET 2022currentUser:  VRFYVRFY <roger>
+ - Error 553 -> User ambiguous (More than 1 users with this username) 
+Tue Jan 11 17:35:51 EET 2022currentUser:  QUIT

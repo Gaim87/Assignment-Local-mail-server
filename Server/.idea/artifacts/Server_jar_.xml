@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="Server_jar_">
+    <output-path>$PROJECT_DIR$/out/artifacts/Server_jar_</output-path>
+    <root id="root">
+      <element id="extracted-dir" path="$PROJECT_DIR$/dist/Server.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

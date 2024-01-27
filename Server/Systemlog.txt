@@ -1,0 +1,133 @@
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Sat Dec 23 18:50:13 EET 2023currentUser:  HELP 
+Sat Dec 23 18:50:42 EET 2023currentUser: NOOP
+Error 503 -> Bad sequence of commands 
+Sat Dec 23 18:50:50 EET 2023currentUser: NOOP
+Error 503 -> Bad sequence of commands 
+Sat Dec 23 18:50:55 EET 2023currentUser:  HELO 
+Sat Dec 23 18:51:06 EET 2023currentUser:  MAIL FROM johndoe@client-domain.gr
+Sat Dec 23 18:51:22 EET 2023currentUser:  RCPT TOgggg@ff.gr - Error 550 -> Requested action not taken: recipient not in server's list 
+Sat Dec 23 18:51:27 EET 2023currentUser:  NOOP 
+Sat Dec 23 18:51:34 EET 2023currentUser:  HELP 
+Sat Dec 23 18:51:37 EET 2023currentUser:  NOOP 
+Sat Dec 23 18:51:51 EET 2023currentUser:  READ MAIL - Error 503 -> Bad sequence of commands 
+Sat Dec 23 18:52:02 EET 2023currentUser:  RSET 
+Sat Dec 23 18:52:20 EET 2023currentUser:  NOOP 
+Sat Dec 23 18:52:23 EET 2023currentUser:  QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Sat Dec 23 19:02:39 EET 2023currentUser: READ MAIL
+Error 503 -> Bad sequence of commands 
+Sat Dec 23 19:02:44 EET 2023currentUser: NOOP
+Error 503 -> Bad sequence of commands 
+Sat Dec 23 19:02:50 EET 2023currentUser:  HELP 
+Sat Dec 23 19:03:14 EET 2023currentUser:  HELO 
+Sat Dec 23 19:03:32 EET 2023currentUser:  NOOP 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Sun Dec 24 16:35:20 EET 2023currentUser: QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Sun Dec 24 16:48:36 EET 2023currentUser:  HELP 
+Sun Dec 24 16:48:38 EET 2023currentUser:  HELO 
+Sun Dec 24 16:48:44 EET 2023currentUser:  NOOP 
+Sun Dec 24 16:48:49 EET 2023currentUser:  QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Thu Dec 28 17:59:54 EET 2023currentUser:  HELO 
+Thu Dec 28 17:59:56 EET 2023currentUser:  QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Thu Dec 28 18:01:46 EET 2023currentUser: MAIL FROM:<johndoe@client-domain.gr>
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:01:48 EET 2023currentUser: RCPT TO:<>
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:01:50 EET 2023currentUser: DATA
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:01:53 EET 2023currentUser: RSET
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:01:56 EET 2023currentUser: NOOP
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:02:01 EET 2023currentUser:  HELP 
+Thu Dec 28 18:02:08 EET 2023currentUser:  HELO 
+Thu Dec 28 18:02:11 EET 2023currentUser:  NOOP 
+Thu Dec 28 18:02:24 EET 2023currentUser:  RCPT TO - Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:02:27 EET 2023currentUser:  DATA - Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:02:29 EET 2023currentUser:  MAIL FROM johndoe@client-domain.gr
+Thu Dec 28 18:02:34 EET 2023currentUser:  DATA - Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:03:15 EET 2023currentUser:  RCPT TO rogerfederer@client-domain.gr
+Thu Dec 28 18:03:18 EET 2023currentUser:  DATA: 
+	 Subject: Hello, Roger!
+		How are you today?
+Thu Dec 28 18:03:42 EET 2023currentUser:  RCPT TO - Error 503 -> Bad sequence of commands 
+Thu Dec 28 18:04:34 EET 2023currentUser:  QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Thu Dec 28 19:19:48 EET 2023currentUser: MAIL FROM:<johndoe@client-domain.gr>
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 19:19:50 EET 2023currentUser:  HELO 
+Thu Dec 28 19:19:52 EET 2023currentUser:  RCPT TO - Error 503 -> Bad sequence of commands 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Thu Dec 28 19:29:22 EET 2023currentUser: MAIL FROM:<johndoe@client-domain.gr>
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 19:29:24 EET 2023currentUser: RCPT TO:<>
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 19:29:25 EET 2023currentUser: READ MAIL
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 19:29:28 EET 2023currentUser: NOOP
+Error 503 -> Bad sequence of commands 
+Thu Dec 28 19:29:32 EET 2023currentUser:  HELP 
+Thu Dec 28 19:29:37 EET 2023currentUser: QUIT
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Fri Dec 29 21:23:15 EET 2023currentUser: RCPT TO:<>
+Error 503 -> Bad sequence of commands 
+Fri Dec 29 21:23:21 EET 2023currentUser:  HELO 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Fri Dec 29 21:24:27 EET 2023currentUser: DATA
+Error 503 -> Bad sequence of commands 
+Fri Dec 29 21:24:35 EET 2023currentUser:  HELO 
+Fri Dec 29 21:24:37 EET 2023currentUser:  DATA - Error 503 -> Bad sequence of commands 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Fri Dec 29 21:25:03 EET 2023currentUser:  HELO 
+
+
+NEW SESSION ----------------- 
+Client currentUser connected 
+Fri Dec 29 21:45:51 EET 2023currentUser: NOOP
+Error 503 -> Bad sequence of commands 
+Fri Dec 29 21:45:59 EET 2023currentUser: VRFY
+Error 503 -> Bad sequence of commands 
+Fri Dec 29 21:46:00 EET 2023currentUser: QUIT
